@@ -1,0 +1,81 @@
+html {
+	font-family: Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        background: #f8f8f8;
+}
+
+body {
+    position: relative;
+    width: 90%;
+    max-width: 60em;
+    margin: 1.0em auto;
+    padding: 0.5em 1.0em;
+    border: 1px solid #88a;
+    background: white;
+    color: black;
+    line-height: 125%;
+}
+
+* {
+        background: transparent;
+        font-size: 100%;
+        line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        padding: 0;
+        margin: 0.5em 0 0.1em 0;
+        font-weight: normal;
+		
+}
+
+h1 { font-size: 240%; line-height: normal; font-family: Georgia, Times, serif;}
+h2 { font-size: 170%; line-height: normal; font-family: Georgia, Times, serif; border-bottom: 1px solid #999;}
+h3 { font-size: 160%; line-height: normal; }
+h4 { font-size: 140%; line-height: normal; }
+h5 { font-size: 110%; line-height: normal; font-weight: bold; margin-left: 1em;}
+h6 { font-size: 100%; line-height: normal; }
+
+p {
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    text-align: justify;
+    margin: 0.5em 1em;
+}
+
+#contact { float: left; min-width: 70% }
+
+#photoframe {
+    align: right;
+    float: right;
+    width: 30%;
+	max-width: 15em;
+	margin: 1.7em 0 0 0;
+}
+
+#photo { width: 100%; max-width: 185px; padding: auto 0; 
+	-webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -ms-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    border-radius: 50%;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.6)}
+
+ul { margin: 0 0 0.6em 0; padding-left: 2em; text-indent: 0; list-style: square; }
+ul:not(#interest) li:not(:last-child) { margin-bottom: 5px; }
+ul:not(#interest) li:first-child { margin-top: 0.5em; }
+
+#toggler { font-size: 15px; color: #dddddd; margin-left: 0.5em; }
+.bydate { font-weight: bold; cursor: default;}
+.byarea { font-weight: bold; cursor: default;}
+.hovered { color: #999999; }
+.clicked { color: #666666; }
+.hovernext { color: #dddddd;}
+.pubbydate { display: block; }
+.pubbyarea { display: none; }
+
+a       { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
